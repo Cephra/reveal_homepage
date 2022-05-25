@@ -1,0 +1,13 @@
+{
+  "name": "reveal_homepage",
+  "version": "1.0.0",
+  "description": "reveal homepage",
+  "private": true,
+  "author": "szt <soulzterx@googlemail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "reveal.js": "^4.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
