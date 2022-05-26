@@ -4,7 +4,8 @@ import('reveal.js/dist/theme/solarized.css');
 import Reveal from 'reveal.js';
 
 let deck = new Reveal({
-  autoSlide: 3000,
+  autoSlide: 1000,
+  autoSlideStoppable: false,
   progress: false,
   controlsBackArrows: 'visible',
   controls: false,
@@ -12,6 +13,5 @@ let deck = new Reveal({
   touch: false,
   pause: false,
   loop: true,
-  autoSlideStoppable: false,
 });
 deck.initialize();
