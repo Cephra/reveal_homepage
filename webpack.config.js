@@ -10,15 +10,19 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: '0x29a.me',
-      template: './src/template.html'
+      template: './src/hbs/index.hbs'
     })
   ],
   module: {
     rules: [
       {
         test: /\.css$/,
-        use:['style-loader','css-loader']
-      }
+        use:['style-loader', 'css-loader']
+      },
+      {
+        test: /\.hbs$/,
+        use:['handlebars-loader']
+      },
     ],
   },
 };
