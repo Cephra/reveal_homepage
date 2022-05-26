@@ -1,7 +1,12 @@
 import('reveal.js/dist/reveal.css');
-import('reveal.js/dist/theme/black.css');
+import('reveal.js/dist/theme/solarized.css');
 
 import Reveal from 'reveal.js';
 
-let deck = new Reveal()
+let deck = new Reveal({
+  autoSlide: 3000,
+  progress: false,
+  controlsBackArrows: 'visible',
+  loop: true,
+});
 deck.initialize();
