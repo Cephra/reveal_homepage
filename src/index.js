@@ -1,6 +1,7 @@
 import('reveal.js/dist/reveal.css');
 import('reveal.js/dist/theme/solarized.css');
 
+import './css/main.css';
 import './css/custom.css';
 
 import Reveal from 'reveal.js';

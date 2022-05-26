@@ -1,0 +1,6 @@
+body > div.reveal {
+  visibility: hidden;
+}
+body.reveal-viewport > div.reveal {
+  visibility: visible;
+}
