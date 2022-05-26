@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
-rm -rf /srv/http/0x29a.me/*
+yarn install
 yarn build
-mv dist/* /srv/http/0x29a.me/
+sudo rm -rf /srv/http/0x29a.me
+sudo mv dist /srv/http/0x29a.me
